@@ -1,0 +1,7 @@
+name: "R-expo-2021"
+output_dir: "."
+navbar:
+  title: "Peter Euclide"
+  left:
+    - text: "Home"
+      href: index.html

@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 All presentations will be held live __February 9th__ and __11th__ from __9 AM to 10 AM__ Central during the [2021 Wisconsin Chapter meeting of the American Fisheries Society](https://wi-afs.org/annual-meetings/).
 
-![](/Users/petereuclide/OneDrive - UWSP/UWSP_Larson_2018/projects/R_workshop/rexpo_logo3.jpg){width=50%}
+![](./rexpo_morning.png){width=50%}
 
 
 
@@ -22,9 +22,9 @@ All presentations will be held live __February 9th__ and __11th__ from __9 AM to
 
 ## Scheduled presentations:
 
--	__Getting the most out of RStudio__ – Peter Euclide, UW-Milwaukee
+-	[Getting the most out of RStudio](RStudio-intro.html) – Peter Euclide, UW-Milwaukee
 
--	__Introduction to dataRetrieval and other USGS R resources__ – Larua DeCicco, USGS
+-	[Introduction to dataRetrieval and other USGS R resources](https://waterdata.usgs.gov/blog/tags/r/) – Larua DeCicco, USGS
 
 -	__Make your computer work for you: Interactive applications and automated reports with R__ – Alex Latzka, WI DNR
 
@@ -32,9 +32,9 @@ All presentations will be held live __February 9th__ and __11th__ from __9 AM to
 
 -	__Back to the basics – quick refresher of basic plots and stats in R__ – Zach Feiner, WI DNR
 
--	__Making better graphs – publication ready plots in ggplot__ – Holly Embke, UW-Madison
+-	[Making better graphs – publication ready plots in ggplot](intro_to_ggplot2.html) – Holly Embke, UW-Madison
 
--	__Working with stream data in R: linking fish, flows, temperature, habitat, and watershed info__ – Bryan Maitland, WI DNR
+-	[Working with stream data in R: linking fish, flows, temperature, habitat, and watershed info](StreamData_master-script.html) – Bryan Maitland, WI DNR
 
 ---
 
