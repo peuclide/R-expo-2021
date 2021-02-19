@@ -1,7 +1,7 @@
 ---
 title: "R-expo 2021"
 author: "Peter Euclide"
-date: "2/19/2020"
+date: "2/19/2021"
 output:
   html_document: default
   pdf_document: default
@@ -11,7 +11,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-All presentations were held live __February 9th__ and __11th__ from __9 AM to 10 AM__ Central during the [2021 Wisconsin Chapter meeting of the American Fisheries Society](https://wi-afs.org/annual-meetings/).
+All presentations were held live February 9th and 11th during the [2021 Wisconsin Chapter meeting of the American Fisheries Society](https://wi-afs.org/annual-meetings/).
 
 ![](./rexpo_morning.png){width=50%}
 

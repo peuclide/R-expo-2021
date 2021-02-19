@@ -1,7 +1,7 @@
 ---
 title: "Making the most of RStudio"
 author: "Peter Euclide"
-date: "1/13/2020"
+date: "1/13/2021"
 output: html_document
 ---
 
@@ -11,189 +11,162 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 ```
 
-## R Studio
-
 R studio has become a standard tool for R. It provides a user friendly interface to write and execute code by hybridinzing scripts with a point-and-click interface. There are already great resources going going over RStudio that go way beyond what I will discuss here. If you are interested in learning more check out: https://rstudio.com/wp-content/uploads/2016/01/rstudio-IDE-cheatsheet.pdf
 
-### R Studio orientation
+# Part 1: RStudio orientation
 
 RStudio offers users to customize the interface to create a space that works best for them. However, there are four basic windows to be aware of:
 
-1) _The source pane_ - this is where you can write and edit code, insert text for reports, and generally get work done.
+### 1) _The source pane_ - this is where you can write and edit code, insert text for reports, and generally get work done.
+<br/>  
 
 ![](screenshots/source.png){width=75%}
 
 
-2) _The Console_ - this is your traditional R view. Here you can script just like you would in the original R, code is execulted by pressing enter and stored in your history.
+### 2) _The Console_ - this is your traditional R view. Here you can script just like you would in the original R, code is execulted by pressing enter and stored in your history.
+<br/>  
 
 
 ![](screenshots/console.png){width=75%}
+<br/>  
 
-3) _Plots, Packages, and Help_ - This is a viewer pane that provides quick access to viewing plots, installing packages, reading help pages.
+### 3) _Plots, Packages, and Help_ - This is a viewer pane that provides quick access to viewing plots, installing packages, reading help pages.
 
-Print a plot from the source or console pain, and then view or export the file from the viewer:
+#### _Print a plot from the source or console pain, and then view or export the file from the viewer:_
+<br/>  
 
 ![](screenshots/plots.png){width=75%}
 
+<br/>  
 
-You can also view all of the packages you have installed, or install new packages.
+#### _View all of the packages you have installed, or install new packages_
+<br/>  
 
 ![](screenshots/packages.png){width=75%}
 
+<br/>  
 
-4) _Environement_ - This is where you can preview what data you have loaded in to R and manage functions and or history.
+#### _Pull up help files for functions and packages_
+<br/>  
 
-View different datasets that you have loaded an check to make sure you know what variables or funcitons you have loaded.
+
+![](screenshots/help.png){width=75%}
+<br/>  
+
+### 4) _Environement_ - This is where you can preview what data you have loaded in to R and manage functions and or history.
+
+#### _View different datasets that you have loaded an check to make sure you know what variables or funcitons you have loaded._
+
+<br/>  
+
 
 ![](screenshots/environment.png){width=75%}
 
-Look back at your history and even move code that you wrote in the "console" back to your official script in the "Source" pain.
+<br/>  
+
+#### _Look back at your history and even move code that you wrote in the "console" back to your official script in the "Source" pain._
+<br/>  
 
 ![](screenshots/history.png){width=75%}
 
 
+<br/>  
 
+### The layout of these panes is up to you can can be customized by clicking on the "Workspace Panes" icon with 4 little boxes on the top bar.
+<br/>  
 
+![](screenshots/panes.png){width=75%}
 
-The layout of these panes is up to you can can be customized by clicking on the "Workspace Panes" icon with 4 little boxes ont the top bar.
+---- 
 
+## Part 2: RStudio secrets
 
-### RStudio secrets
+### RStudio has a ton of options and tricks that make using R in R studio much easier than it used to be. Here are a few resrouces you might not know about:
+<br/>  
 
-RStudio has a ton of options and tricks tht make using R in R studio much easier than it used to be. Here are a few resrouces you might not know about:
+#### _1). RProjects - For every new project, you can make a RProject that links all of the files in a project folder together. This makes it easy to stay organized and find files._
+<br/>  
 
-1). RProjects - For every new project, you can make a RProject that links all of the files in a project folder together. This makes it easy to stay organized and find files.
+#### _2). RSessions - If you have a script running but want to keep working on a new script while the other runs, you can open new session. This allows you to get something else started while your model is running._
+<br/>  
 
-2). RSessions - If you have a script running but want to keep working on a new script while the other runs, you can open new session. This allows you to get something else started while your model is running.
+#### _3). RMarkdown, Shiny Apps, and presentations - RStudio allows you to create different types of documents and us R code to do a lot more than just statistics. See Alex about getting started with RMarkdown and Shiny._ 
+<br/>  
 
-3). RMarkdown, Shiny Apps, and presentations - RStudio allows you to create different types of documents and us R code to do a lot more than just statistics. See Alex about getting started with RMarkdown and Shiny. 
-
-4). Easy help and cheatsheets - You may know that "?function()" pulls up a help page, but RStudio also makes it easy to access lots of pre-built cheathseets for different common packages and syntax under the "Help" tab.
+#### _4). Easy help and cheatsheets - You may know that "?function()" pulls up a help page, but RStudio also makes it easy to access lots of pre-built cheatsheets for different common packages and syntax under the "Help" tab._
+<br/>  
 
 ![](screenshots/cheatsheets_zoom.png){width=75%}
 
-5). Use the magnifying glass to search and replace to quickly re-name variables (or correct mistakes).
+<br/>  
+
+#### _5). Use the magnifying glass to search and replace to quickly re-name variables (or correct mistakes)._
+<br/>  
 
 ![](screenshots/search_replace.png){width=75%}
 
+<br/>  
 
-6). If you are working on a report (Check out Alex Latzka's talk) you can spell check your work.
+#### _6). If you are working on a report (Check out Alex Latzka's talk) you can spell check your work_
+
+<br/>  
 
 ![](screenshots/spellcheck.png){width=75%}
 
+<br/>  
 
+#### *7). Important files using the "Import Dataset" button in the environment panel:*
 
-5). Hotkeys, hotkeys, hotkeys - R has about a million  different key strokes you could learn to code more effieecently. A whole list is easily accessible under the "Keyboard Shotcuts" in "Help" (which you can acces using opt/alt+shift+k). 
-
-a few to keep in mind:
-
-press tab when typing a file path to view all files in the present folder.
-
-![](screenshots/find_files.png){width=75%}
-
-
-You can also important files using the "Import Dataset" button in the environment panel:
+<br/>  
 
 ![](screenshots/import_dataset.png){width=75%}
 
+<br/>  
+
 ![](screenshots/import_excel.png){width=75%}
 
+<br/>  
+
+#### _8). Hotkeys, hotkeys, hotkeys - R has about a million  different key strokes you could learn to code more efficiently A whole list is easily accessible under the "Keyboard Shortcuts" in "Help" (which you can access using opt/alt+shift+k)._ 
 
 
-```{r find file path}
+##### Press tab when typing a file path to view all files in the present folder.
+##### Press cmd+opt+i to insert a new code chunk
+##### Press cmd+enter to run a line of code
+##### Press command + shift + c to comment blocks of code (or un-comment)
+##### Press opt + - to name a new variable
 
+<br/>  
 
-library(readxl)
+---
 
-GLcommercialData <- read_excel("GLcommercialData.xls",
-sheet = "Ontario")
-#View(GLcommercialData)
-
-
-GLcommercialData <- read_excel("GLcommercialData.xls", 
-    sheet = "Superior")
-#View(GLcommercialData)
-
-```
-
-Use cmd+alt+i to create a new chunk in a RMarkdown file
-
-
-
-
-use comand + shift + c to comment code (or uncomment)
-
-```{r comment}
-
-GreatLakes <- read.csv("Great_Lakes_CommercialHarvest.csv")
-summary(GreatLakes$Year)
-
-SD_catch = sd(GreatLakes$harvest)
-
-wh_by_year <- GreatLakes %>% filter(Species == "Lake Whitefish") %>%
-group_by(Lake, Year) %>%
-summarize(Total_catch = sum(harvest, na.rm = T),
-Mean_catch = mean(harvest, na.rm = T),
-SD_catch = sd(harvest, na.rm = T))
-
-head(wh_by_year)
-
-```
-
-
-use alt/opt + - to name a new variable
-
-```{r new variable}
-
-lakeErie <- subset(GreatLakes, Lake == "Erie")
-
-```
-
-
-use alt or option to go into column mode to change multiple lines at once
-
+##### Press and hold option to enter "column mode"
+  
+<br/>  
 ![](screenshots/column_mode.png){width=75%}
 
+<br/>  
 
-```{r column mode}
-LakeE <-read.csv("Great_Lakes_CommercialHarvest.csv") 
-LakeM <-read.csv("Great_Lakes_CommercialHarvest.csv") 
-LakeH <-read.csv("Great_Lakes_CommercialHarvest.csv") 
-LakeS <-read.csv("Great_Lakes_CommercialHarvest.csv") 
-LakeO <-read.csv("Great_Lakes_CommercialHarvest.csv") 
+---
 
-#View(GLcommercialData)
+##### clean up indents with cmd + i
 
-```
-
-clean up indents with cmd + i
+<br/>  
 
 ![](screenshots/indent1.png){width=75%}
+<br/>  
 
 ![](screenshots/indent2.png){width=75%}
 
+<br/> 
 
-```{r clean indents}
+<br/>  
 
-Lakes <- unique(GreatLakes$Lake)
-meanharvestSummary <- NULL
-sdharvestSummary <- NULL
-lakeSummary <- NULL
+---
 
-for(L in Lakes){
-  tmpL <- GreatLakes[GreatLakes$Lake == L,]
-  meanHarvest <- mean(tmpL$harvest, na.rm=T)
-  sdHarvest <- sd(tmpL$harvest, na.rm=T)
-  lake <- L
-  meanharvestSummary <- c(meanharvestSummary, meanHarvest)
-  sdharvestSummary <- c(sdharvestSummary, sdHarvest)
-  lakeSummary <- c(lakeSummary, lake)
-  
-}
-
-cbind(lakeSummary, meanharvestSummary, sdharvestSummary)
+### There is a lot more that RStudio can do to make it easier to learn R. The best way to learn is to spend some exploring the RStudio environment by clicking around on the different tabs and buttons. 
 
 
-```
+---
 
-
+---
