@@ -1,1 +1,10 @@
 theme: jekyll-theme-cayman
+name: "R-expo-2021"
+output_dir: "."
+navbar:
+  title: "Peter Euclide"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "GGPlot"
+      href: intro_to_ggplot2.html
