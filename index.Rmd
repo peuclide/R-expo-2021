@@ -44,10 +44,18 @@ All presentations were held live __February 9th__ and __11th__ from __9 AM to 10
 
 - [USGS Official R-Blog series](https://waterdata.usgs.gov/blog/tags/r/)
 
+- [FishR](http://derekogle.com/fishR/)
+
 - [RStudio Cheatsheets](https://rstudio.com/resources/cheatsheets/)
 
 - [RStudio Education](https://education.rstudio.com)
 
+## Useful packages for fisheries managers
+
++ toxEval: [http://usgs-r.github.io/toxEval/](http://usgs-r.github.io/toxEval/)
++ EGRET: [http://usgs-r.github.io/EGRET/](http://usgs-r.github.io/EGRET/)
++ FSA: [http://derekogle.com/FSA/](http://derekogle.com/FSA/)
++ RFishBC: [https://derekogle.com/RFishBC/](https://derekogle.com/RFishBC/)
 
 
 
