@@ -6,9 +6,3 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "GGPlot"
-      href: intro_to_ggplot2.html
-    - text: "RStudio"
-      href: RStudio-intro.html   
-    - text: "Stream Data"
-      href: StreamData_master-script.html
