@@ -1,5 +1,7 @@
 ---
-title: ""
+title: "R-expo 2021"
+author: "Peter Euclide"
+date: "2/19/2020"
 output:
   html_document: default
   pdf_document: default
@@ -9,9 +11,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-# Join us again this year for the R-expo! 
-
-All presentations will be held live __February 9th__ and __11th__ from __9 AM to 10 AM__ Central during the [2021 Wisconsin Chapter meeting of the American Fisheries Society](https://wi-afs.org/annual-meetings/).
+All presentations were held live __February 9th__ and __11th__ from __9 AM to 10 AM__ Central during the [2021 Wisconsin Chapter meeting of the American Fisheries Society](https://wi-afs.org/annual-meetings/).
 
 ![](./rexpo_morning.png){width=50%}
 
@@ -20,11 +20,11 @@ All presentations will be held live __February 9th__ and __11th__ from __9 AM to
 
 ---
 
-## Scheduled presentations:
+## Presentation resources:
 
 -	[Getting the most out of RStudio](RStudio-intro.html) – Peter Euclide, UW-Milwaukee
 
--	[Introduction to dataRetrieval and other USGS R resources](https://waterdata.usgs.gov/blog/tags/r/) – Larua DeCicco, USGS
+-	[Introduction to dataRetrieval and other USGS R resources](https://waterdata.usgs.gov/blog/dataretrieval/) – Larua DeCicco, USGS
 
 -	__Make your computer work for you: Interactive applications and automated reports with R__ – Alex Latzka, WI DNR
 
@@ -35,6 +35,21 @@ All presentations will be held live __February 9th__ and __11th__ from __9 AM to
 -	[Making better graphs – publication ready plots in ggplot](intro_to_ggplot2.html) – Holly Embke, UW-Madison
 
 -	[Working with stream data in R: linking fish, flows, temperature, habitat, and watershed info](StreamData_master-script.html) – Bryan Maitland, WI DNR
+
+## Additional R resources:
+
+- [USGS-R Github](https://github.com/USGS-R)
+
+- [USGS Official Code repositories](https://code.usgs.gov/water)
+
+- [USGS Official R-Blog series](https://waterdata.usgs.gov/blog/tags/r/)
+
+- [RStudio Cheatsheets](https://rstudio.com/resources/cheatsheets/)
+
+- [RStudio Education](https://education.rstudio.com)
+
+
+
 
 ---
 
