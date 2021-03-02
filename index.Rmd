@@ -28,7 +28,7 @@ All presentations were held live February 9th and 11th during the [2021 Wisconsi
 
 -	__Make your computer work for you: Interactive applications and automated reports with R__ – Alex Latzka, WI DNR
 
--	__arcpullr and wdnr.gis: Two new R packages for pulling spatial data into R__ – Paul Frater, WI DNR
+-	__[arcpullr](arcpullr_vignette.html) and [wdnr.gis](wdnr.gis_vignette.html): Two new R packages for pulling spatial data into R__ – Paul Frater, WI DNR
 
 -	__Back to the basics – quick refresher of basic plots and stats in R__ – Zach Feiner, WI DNR
 
